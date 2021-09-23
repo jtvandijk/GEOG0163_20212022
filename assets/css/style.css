@@ -9,6 +9,7 @@ body {
 
 a {
   color: #99db7f;
+  font-weight: bold;
 }
 
 a:hover {
@@ -74,7 +75,7 @@ li {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #99db7f;
+  border-bottom: 5px solid #99db7f;
 }
 
 @media (min-width: 1024px) {
@@ -125,7 +126,7 @@ section {
   position: absolute;
   display: block;
   width: 100px;
-  height: 3px;
+  height: 5px;
   background: #99db7f;
   bottom: 0;
   left: 0;
