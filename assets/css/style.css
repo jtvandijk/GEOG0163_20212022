@@ -4,6 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  font-size: 22px;
 }
 
 a {
@@ -17,6 +18,14 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+p {
+  padding: 5px 0px 5px 0px;
+}
+
+li {
+  padding: 2px 0px 2px 0px;
 }
 
 /*--------------------------------------------------------------
@@ -123,33 +132,5 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# reading
---------------------------------------------------------------*/
-.reading .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #272829;
-}
-
-.reading .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.reading .content ul li {
-  padding-bottom: 10px;
-}
-
-.reading .content ul i {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #149ddd;
-}
-
-.reading .content p:last-child {
   margin-bottom: 0;
 }
